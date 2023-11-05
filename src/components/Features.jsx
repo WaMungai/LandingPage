@@ -1,4 +1,5 @@
 import React from 'react'
+import IMAGES from '../images/Images'
 
 function Features() {
   return (
@@ -20,7 +21,8 @@ function Features() {
               <div className="items-start border shadow-lg bg-white flex w-full max-w-[312px] grow flex-col mx-auto pl-4 pr-3.5 py-4 rounded-xl border-solid border-zinc-100 max-md:mt-6">
                 <img
                   loading="lazy"
-                  src=""
+                  src={IMAGES.image11}
+                  alt={"logo"}
                   className="aspect-square object-contain object-center w-[60px] justify-center items-center overflow-hidden max-w-full self-start"
                 />
                 <div className="text-black text-2xl font-bold mt-7 self-start">
@@ -35,8 +37,8 @@ function Features() {
                     View all Mzoori POS features
                   </div>
                   <img
-                    loading="lazy"
-                    src=""
+                   src={IMAGES.image12}
+                   alt={"logo"}
                     className="aspect-[0.79] object-contain object-center w-[19px] overflow-hidden self-stretch max-w-full"
                   />
                 </div>
@@ -46,7 +48,8 @@ function Features() {
               <div className="items-start border shadow-lg bg-white flex w-full max-w-[312px] grow flex-col mx-auto pl-4 pr-3.5 py-4 rounded-xl border-solid border-zinc-100 max-md:mt-6">
                 <img
                   loading="lazy"
-                  src=""
+                  src={IMAGES.image11}
+                  alt={"logo"}
                   className="aspect-square object-contain object-center w-[60px] justify-center items-center overflow-hidden max-w-full self-start"
                 />
                 <div className="text-black text-2xl font-bold mt-7 self-start">
@@ -63,7 +66,8 @@ function Features() {
                   </div>
                   <img
                     loading="lazy"
-                    src=""
+                    src={IMAGES.image12}
+                   alt={"logo"}
                     className="aspect-[0.79] object-contain object-center w-[19px] overflow-hidden self-stretch max-w-full"
                   />
                 </div>
@@ -73,7 +77,8 @@ function Features() {
               <div className="items-start border shadow-lg bg-white flex w-full max-w-[312px] grow flex-col mx-auto pl-4 pr-3.5 py-4 rounded-xl border-solid border-zinc-100 max-md:mt-6">
                 <img
                   loading="lazy"
-                  src=""
+                  src={IMAGES.image11}
+                  alt={"logo"}
                   className="aspect-square object-contain object-center w-[60px] justify-center items-center overflow-hidden max-w-full self-start"
                 />
                 <div className="text-black text-2xl font-bold mt-7 self-start">
@@ -90,7 +95,8 @@ function Features() {
                   </div>
                   <img
                     loading="lazy"
-                    src=""
+                    src={IMAGES.image12}
+                   alt={"logo"}
                     className="aspect-[0.79] object-contain object-center w-[19px] overflow-hidden self-stretch max-w-full"
                   />
                 </div>

@@ -5,12 +5,13 @@ import IMAGES from '../images/Images'
 function CTA() {
   return (
     <>
+    <div className="flex justify-center items-center"></div>
      <div className="self-stretch mt-11 pr-20 max-md:max-w-full max-md:mt-10 max-md:pr-5">
               <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                 <div className="flex flex-col items-stretch w-[42%] max-md:w-full max-md:ml-0">
                   <div className="items-start flex flex-col my-auto py-px max-md:max-w-full max-md:mt-10">
                     <div className="text-slate-600 text-4xl font-bold leading-[48.24px] self-start max-md:max-w-full">
-                      Power your retail businessSeize more sales
+                      Power your retail business seize more sales
                       <br />
                     </div>
                     <div className="text-black text-2xl leading-8 mt-10 self-start max-md:max-w-full max-md:mt-10">
