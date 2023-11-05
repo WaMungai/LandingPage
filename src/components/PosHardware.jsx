@@ -1,4 +1,5 @@
 import React from 'react'
+import IMAGES from '../images/Images'
 
 function PosHardware() {
   return (
@@ -6,7 +7,8 @@ function PosHardware() {
     <div className="flex flex-col items-stretch w-3/5 max-md:w-full max-md:ml-0">
       <img
         loading="lazy"
-        srcSet="..."
+        src={IMAGES.image4}
+                alt={"logo"}
         className="aspect-[1.02] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-7"
       />
     </div>
@@ -25,11 +27,7 @@ function PosHardware() {
           <div className="text-teal-500 text-sm font-bold self-center grow shrink basis-auto my-auto">
             Learn more about POS hardware
           </div>
-          <img
-            loading="lazy"
-            src=""
-            className="aspect-[0.79] object-contain object-center w-[19px] overflow-hidden self-stretch max-w-full"
-          />
+
         </div>
       </div>
     </div>

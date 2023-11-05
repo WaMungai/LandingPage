@@ -1,19 +1,18 @@
 import React from 'react'
+import IMAGES from '../images/Images'
+
 
 function HeroSection() {
   return (
     <div className="flex-col overflow-hidden self-stretch relative flex min-h-[1024px] w-full pt-36 pb-60 px-20 max-md:max-w-full max-md:px-5 max-md:py-24 bg-teal-500">
-        <img
+       | <img
           loading="lazy"
           srcSet="..."
           className="absolute z-[-1] h-full w-full object-cover object-center inset-0"
         />
         <div className="relative items-center self-center flex mb-0 w-[740px] max-w-full flex-col max-md:mb-2.5">
-          <img
-            loading="lazy"
-            src="../assets/images/mzoorilogo"
-            className="object-contain object-center w-[300px] overflow-hidden self-center max-w-full"
-          />
+         
+          <img  src={IMAGES.image1} alt={"logo"} className="object-contain object-center w-[300px] overflow-hidden self-center max-w-full"/> 
           <div className="bg-slate-500 bg-opacity-0 self-center w-[147px] h-px mt-8" />
           <div className="text-white text-center text-7xl font-bold leading-[77px] tracking-tighter self-stretch mt-8 max-md:max-w-full max-md:text-4xl">
             <span className="text-yellow-400">Unlock your

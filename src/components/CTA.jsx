@@ -1,4 +1,6 @@
 import React from 'react'
+import IMAGES from '../images/Images'
+
 
 function CTA() {
   return (
@@ -28,8 +30,9 @@ function CTA() {
                 </div>
                 <div className="flex flex-col items-stretch w-[58%] ml-5 max-md:w-full max-md:ml-0">
                   <img
+                   src={IMAGES.image4}
+                   alt={"logo"}
                     loading="lazy"
-                    srcSet="..."
                     className="aspect-[1.02] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-7"
                   />
                 </div>
