@@ -11,6 +11,7 @@ const IMAGES = {
     image10 : new URL('./mzooriwoman.png', import.meta.url).href,
     image11 : new URL('./cardlogo.png', import.meta.url).href,
     image12 : new URL('./chevronright.png', import.meta.url).href,  
-    image13 : new URL('./lightaccent.png', import.meta.url).href,   
+    image13 : new URL('./lightaccent.png', import.meta.url).href, 
+    image14 : new URL('./carousellogo.png', import.meta.url).href,  
 }
 export default IMAGES
