@@ -1,4 +1,5 @@
 import React from 'react'
+import IMAGES from '../images/Images'
 
 function FAQ() {
   return (
@@ -46,7 +47,8 @@ function FAQ() {
             <div className="items-start flex w-[398px] max-w-full justify-between gap-5 self-start">
               <img
                 loading="lazy"
-                src=""
+                src={IMAGES.image15}
+                alt={"logo"}
                 className="aspect-[0.91] object-contain object-center w-[29px] overflow-hidden max-w-full self-start"
               />
               <div className="text-neutral-600 text-2xl font-bold grow shrink basis-auto self-start">
@@ -58,7 +60,8 @@ function FAQ() {
             <div className="items-start flex w-[398px] max-w-full justify-between gap-5 self-start">
               <img
                 loading="lazy"
-                src=""
+                src={IMAGES.image15}
+                alt={"logo"}
                 className="aspect-[0.91] object-contain object-center w-[29px] overflow-hidden max-w-full self-start"
               />
               <div className="text-neutral-600 text-2xl font-bold grow shrink basis-auto self-start">
@@ -70,7 +73,8 @@ function FAQ() {
             <div className="items-start flex w-[398px] max-w-full justify-between gap-5 self-start">
               <img
                 loading="lazy"
-                src=""
+                src={IMAGES.image15}
+                alt={"logo"}
                 className="aspect-[0.91] object-contain object-center w-[29px] overflow-hidden max-w-full self-start"
               />
               <div className="text-neutral-600 text-2xl font-bold grow shrink basis-auto self-start">
