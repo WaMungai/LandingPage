@@ -22,7 +22,6 @@ function LandingPage() {
         </div>
         <div className="items-center shadow-lg bg-slate-50 self-stretch flex flex-col mt-24 pb-24 rounded-2xl max-md:max-w-full max-md:mt-10">
           <div className="flex w-[277px] max-w-full items-start gap-0 pr-6 self-start max-md:pr-5">
-            
           </div>
           <div className="items-start self-center flex w-full max-w-[1233px] flex-col max-md:max-w-full">
             <CarouselContainer />

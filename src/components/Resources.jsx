@@ -50,7 +50,8 @@ function Resources() {
                 </div>
                 <img
                   loading="lazy"
-                  
+                  src={IMAGES.image12}
+                   alt={"logo"}
                   className="aspect-[0.79] object-contain object-center w-[19px] overflow-hidden self-stretch max-w-full"
                 />
               </div>
@@ -78,7 +79,8 @@ function Resources() {
                 </div>
                 <img
                   loading="lazy"
-                 
+                  src={IMAGES.image12}
+                  alt={"logo"}
                   className="aspect-[0.79] object-contain object-center w-[19px] overflow-hidden self-stretch max-w-full"
                 />
               </div>
@@ -106,7 +108,8 @@ function Resources() {
                 </div>
                 <img
                   loading="lazy"
-                  src=""
+                  src={IMAGES.image12}
+                  alt={"logo"}
                   className="aspect-[0.79] object-contain object-center w-[19px] overflow-hidden self-stretch max-w-full"
                 />
               </div>

@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+
+# Build output
+/dist/
+/build/
+/out/
+
+# Environment variables
+.env
+.env.local
+
+# Vite
+vite.config.js
+vite.env.js
+vite.config.mjs
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Tailwind CSS
+.cache/
+dist/
