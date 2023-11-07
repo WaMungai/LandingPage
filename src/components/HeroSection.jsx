@@ -8,7 +8,7 @@ function HeroSection() {
       <img
         loading="lazy"
         src={IMAGES.image13}
-                   alt={"logo"}
+        alt={"logo"}
         className="absolute z-[-1] h-full w-full object-cover object-center inset-0"
       />
       <div className="relative items-center self-center flex mb-0 w-[740px] max-w-full flex-col max-md:mb-2.5">
@@ -39,6 +39,7 @@ function HeroSection() {
           </div>
           <div className="text-teal-700 text-base font-bold leading-6 self-stretch whitespace-nowrap justify-center items-center shadow-sm bg-white flex-1 px-11 py-2.5 rounded-[88px] max-md:px-5">
             Sign up
+            
           </div>
         </div>
       </div>
