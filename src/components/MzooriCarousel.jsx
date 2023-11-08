@@ -27,30 +27,31 @@ const MzooriCarousel = () => {
   ];
 
   return (
-    <Carousel>
-      {cardData.map((card, index) => (
-        <div key={index}>
-          <div className=" shadow-lg bg-green-200 w-full h-full flex flex-col mx-auto pl-4 pr-3.5 py-4 rounded-xl max-md:mt-7 justify-center items-center">
-  <img
-    loading="lazy"
-    src=""
-    className="aspect-square object-contain object-center w-[60px] justify-center items-center overflow-hidden max-w-full self-start"
-  />
-  <div className="text-black text-2xl font-bold mt-7 self-start">
-    {card.title}
-  </div>
-  <div className="text-neutral-500 text-base leading-7 mt-7 self-start">
-    {card.description}
-  </div>
-  <div className="items-start flex w-full justify-between gap-5 mt-7 pr-px self-start">
-    <div className="text-black text-sm font-bold my-auto">
-      View all Mzoori POS features
-    </div>
-  </div>
-</div>
-
-        </div>
-      ))}
+    <Carousel className=" bg-mz_yellow">
+      <div className="flex space-x-2">
+        {cardData.map((card, index) => (
+          <div key={index} className="w-1/4">
+            <div className=" bg-mz_teal shadow-lg h-full flex flex-col mx-auto pl-4 pr-3.5 py-4 rounded-xl max-md:mt-7 justify-center items-center">
+              <img
+                loading="lazy"
+                src=""
+                className="aspect-square object-contain object-center w-[60px] justify-center items-center overflow-hidden max-w-full self-start"
+              />
+              <div className="text-black text-2xl font-bold mt-7 self-start">
+                {card.title}
+              </div>
+              <div className="text-neutral-500 text-base leading-7 mt-7 self-start">
+                {card.description}
+              </div>
+              <div className="items-start flex w-full justify-between gap-5 mt-7 pr-px self-start">
+                <div className="text-black text-sm font-bold my-auto">
+                  View all Mzoori POS features
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </Carousel>
   );
 };
