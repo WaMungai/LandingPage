@@ -1,3 +1,4 @@
+import React from 'react'
 import IMAGES from '../images/Images';
 
 function ModernSection() {
