@@ -34,10 +34,10 @@ function HeroSection() {
           everything you need to sell online.
         </div>
         <div className="self-center flex w-[311px] max-w-full items-start gap-5 mt-8">
-          <div className="text-white text-base font-bold leading-6 self-stretch whitespace-nowrap justify-center items-center border shadow-sm flex-1 pl-12 pr-12 py-2.5 rounded-[68px] border-solid border-white max-md:px-5">
+          <div className="text-white text-base font-bold leading-6 self-stretch whitespace-nowrap justify-center items-center border shadow-sm flex-1 pl-12 pr-12 py-2.5 rounded-[68px] border-solid border-white max-md:px-5 hover:bg-blue-500">
             Sign in
           </div>
-          <div className="text-teal-700 text-base font-bold leading-6 self-stretch whitespace-nowrap justify-center items-center shadow-sm bg-white flex-1 px-11 py-2.5 rounded-[88px] max-md:px-5">
+          <div className="text-teal-700 text-base font-bold leading-6 self-stretch whitespace-nowrap justify-center items-center shadow-sm bg-white flex-1 px-11 py-2.5 rounded-[88px] max-md:px-5 hover:bg-blue-500">
             Sign up
             
           </div>
