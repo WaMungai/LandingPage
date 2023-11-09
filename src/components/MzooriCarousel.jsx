@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const MzooriCarousel = () => {
+  const [selectedCard, setSelectedCard] = useState(0);
   const cardData = [
     {
       title: "Advanced inventory management",
@@ -27,10 +28,17 @@ const MzooriCarousel = () => {
   ];
 
   return (
-    <Carousel className=" bg-mz_yellow">
+    <Carousel 
+    className=" bg-mz_yellow"
+    onChange={(index) => setSelectedCard(index)}
+    selectedItem={selectedCard}
+    >
+
       <div className="flex space-x-2">
         {cardData.map((card, index) => (
-          <div key={index} className="w-1/4">
+          <div key={index} className={`w-1/4 ${
+            selectedCard === index ? "border-4 border-blue-500" : ""
+          }`}>
             <div className=" bg-mz_teal shadow-lg h-full flex flex-col mx-auto pl-4 pr-3.5 py-4 rounded-xl max-md:mt-7 justify-center items-center">
               <img
                 loading="lazy"
