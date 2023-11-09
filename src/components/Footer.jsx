@@ -29,7 +29,7 @@ function Footer() {
       <div></div>
     </div>
 
-    <hr className="my-10 border-gray-200 dark:border-gray-700" />
+    <hr className="my-10 border-gray-200 dark:border-white-700" />
 
     <div className="my-10 flex flex-col items-center sm:flex-row sm:justify-between">
       <p className="text-sm text-gray-500">© 2021@mzoori. All Rights Reserved.</p>
