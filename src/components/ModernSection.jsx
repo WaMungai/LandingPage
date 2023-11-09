@@ -16,10 +16,10 @@ function ModernSection() {
 				supermarkets
 			  </div>
 			  <div className="items-start self-stretch flex w-full  gap-5 mt-8 max-md:flex-wrap">
-				<div className="text-white text-base font-bold leading-6 self-stretch whitespace-nowrap justify-center items-center shadow-sm bg-teal-700 w-[147px] max-w-full px-11 py-2.5 rounded-[88px] max-md:px-5">
+				<div className="text-white text-base font-bold leading-6 self-stretch whitespace-nowrap justify-center items-center shadow-sm bg-teal-700 w-[147px] max-w-full px-11 py-2.5 rounded-[88px] max-md:px-5 hover:bg-purple-500">
 				  Sign up
 				</div>
-				<div className="text-teal-700 text-sm font-bold leading-6 self-center whitespace-nowrap">
+				<div className="text-teal-700 text-sm font-bold leading-6 self-center whitespace-nowrap hover:bg-purple-500">
 				  Learn more
 				</div>
 			  </div>

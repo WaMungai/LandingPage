@@ -17,9 +17,9 @@ function Footer() {
       </div>
 
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center">
-        <button className="w-full transform rounded-full bg-white px-5 py-2 text-sm font-semibold tracking-wide text-teal-500 transition-colors duration-300 hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80 sm:mx-2 sm:w-auto">Sign up</button>
+        <button className="w-full transform rounded-full bg-white px-5 py-2 text-sm font-semibold tracking-wide text-teal-500 transition-colors duration-300 hover:bg-purple-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80 sm:mx-2 sm:w-auto">Sign up</button>
 
-        <button className="mt-3 flex w-full transform items-center justify-center rounded-full px-2 py-2 text-sm tracking-wide text-white transition-colors duration-300 hover:bg-blue-500 focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-40 dark:border-gray-400 dark:text-gray-300 dark:hover:bg-gray-800 sm:mx-2 sm:mt-0 sm:w-auto">
+        <button className="mt-3 flex w-full transform items-center justify-center rounded-full px-2 py-2 text-sm tracking-wide text-white transition-colors duration-300 hover:bg-purple-500 focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-40 dark:border-gray-400 dark:text-gray-300 dark:hover:bg-gray-800 sm:mx-2 sm:mt-0 sm:w-auto">
           <span className="mx-1">Learn more</span>
         </button>
       </div>
