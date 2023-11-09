@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
+import IMAGES from "../images/Images";
 const MzooriCarousel = () => {
   const [selectedCard, setSelectedCard] = useState(0);
   const cardData = [
@@ -32,6 +32,7 @@ const MzooriCarousel = () => {
     className=" bg-mz_yellow"
     onChange={(index) => setSelectedCard(index)}
     selectedItem={selectedCard}
+    showStatus={false}
     >
 
       <div className="flex space-x-2">
@@ -42,7 +43,8 @@ const MzooriCarousel = () => {
             <div className=" bg-mz_teal shadow-lg h-full flex flex-col mx-auto pl-4 pr-3.5 py-4 rounded-xl max-md:mt-7 justify-center items-center">
               <img
                 loading="lazy"
-                src=""
+                src={IMAGES.image11}
+                alt={"logo"}
                 className="aspect-square object-contain object-center w-[60px] justify-center items-center overflow-hidden max-w-full self-start"
               />
               <div className="text-black text-2xl font-bold mt-7 self-start">
