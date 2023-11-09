@@ -32,7 +32,7 @@ function Footer() {
     <hr className="my-10 border-gray-200 dark:border-white-700" />
 
     <div className="my-10 flex flex-col items-center sm:flex-row sm:justify-between">
-      <p className="text-sm text-gray-500">© 2021@mzoori. All Rights Reserved.</p>
+      <p className="text-sm text-white-500">© 2021@mzoori. All Rights Reserved.</p>
 
       <div className="-mx-2 mt-3 flex sm:mt-0">
       <img
